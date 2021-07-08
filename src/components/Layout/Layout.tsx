@@ -40,14 +40,16 @@ const Layout = ({children, isLoading, categories, init}: Props) => {
     }
 
     return (
-        <Container className='layout'>
-            <Header />
-            <Tabs categories={categories} />
-            <div className='layout-content'>
-                {children}
-            </div>
-            <Footer />
-        </Container>
+        <div>
+            <Header/>
+            <Container className='layout'>
+                <Tabs categories={categories} />
+                <div className='layout-content'>
+                    {children}
+                </div>
+                <Footer />
+            </Container>
+        </div>
     )
 }
 

@@ -1,9 +1,99 @@
 html, body, #root, .container {
-    // height: 1300px;
+    width: 100%;
 }
 
+
+
 body {
-    background: linear-gradient(to top right, #FFEBCD, #F5DEB3);
+    background: #DCDCDC;
+}
+
+.header {
+    padding-top: 15px;
+    width: 100%;
+    margin: 0px auto;
+    height: 100px;
+    background: #fff;
+    
+.footer-box {
+    padding: 30px;
+    background: grey;
+    height: 300px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+    .buttonsAuth {
+        
+        color: #000;
+        text-align: right;
+    }
+    
+    a {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        color: #000;
+        font-weight: normal;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .logo {
+        display: table;
+        text-decoration: none;
+        color: #E92222;
+        font-family: 'Akronim', cursive;
+        font-size: 46px;
+    }
+
+    input {
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.23);
+        background-color: #fff;
+        border-radius: 30px;
+        border: none;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+}
+
+    button {
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        color:#E92222;
+        background-color: #fff;
+        width: 159px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid #E92222;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        transition:all 0.24s;
+        -webkit-transition:all 0.24s;
+        -moz-transition:all 0.24s;
+        -ms-transition:all 0.24s;
+        -o-transition:all 0.24s;
+}
+
+    button:hover {
+        color: #fff;
+        background-color: #E92222;
+        border: 1px solid #E92222;
+    }
+
+    button:active {
+        color: #fff;
+        background-color: #E92222;
+        border: 1px solid #E92222;
+    }
+    button:focus {
+        color: #E92222;
+        background-color: #fff;
+        border: none;
+    }
 }
 
 .layout {
@@ -12,36 +102,7 @@ body {
     padding: 0px;
     height: 100%;
 
-    .header {
-        padding: 25px 55px 25px 55px;
-        height: 150px;
-        
-        .headerLinks {
-            margin-top: 40px;
-        }
     
-    .footer-box {
-        padding: 30px;
-        background: grey;
-        height: 300px;
-        width: 100px;
-        border: 1px solid red;
-    }
-        
-        a {
-            float: right;
-            text-decoration: none;
-            margin-left: 20px;
-            color: #fc3a3b;
-            font-size: 16px;
-            text-align: right;
-        }
-
-        img  {
-            float: left;
-            height: 100px;
-        }
-    }
 
     .menu {
         box-shadow: 0 0 5px rgba(0,0,0,0.1);
